@@ -1,0 +1,772 @@
+!SESSION 2023-01-20 13:11:13.064 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk
+
+This is a continuation of log file /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/.metadata/.bak_0.log
+Created Time: 2023-01-20 14:06:10.961
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.961
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.962
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.962
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.963
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.963
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.964
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.964
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.964
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.965
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.965
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.966
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, AXI_Slave8Ports_new_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.967
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf bit], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.968
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf bit], Result: [null, cryptoprocessor_wrapper.bit]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.968
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.970
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.971
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.976
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.977
+!MESSAGE XSCT Command: [version -server], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.979
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.980
+!MESSAGE XSCT Command: [version], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.980
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.981
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.983
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.983
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.991
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.991
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.994
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:10.995
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.003
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.003
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.006
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.006
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.014
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.014
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.017
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.017
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.026
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.026
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.029
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.030
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.037
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.038
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.040
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.041
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.048
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.048
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.056
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.056
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.057
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.057
+!MESSAGE XSCT Command: [source /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.058
+!MESSAGE XSCT command with result: [source /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.059
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.073
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.074
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.137
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:11.137
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.142
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.153
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.157
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.158
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.165
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.165
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.176
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:14.176
+!MESSAGE XSCT Command: [fpga -file /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/cryptoprocessor_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.495
+!MESSAGE XSCT command with result: [fpga -file /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/cryptoprocessor_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.508
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.524
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.525
+!MESSAGE XSCT Command: [loadhw -hw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.554
+!MESSAGE XSCT command with result: [loadhw -hw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, cryptoprocessor_wrapper_4]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.554
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.555
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.555
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.565
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.566
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.704
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.705
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.709
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.710
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.727
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:16.728
+!MESSAGE XSCT Command: [dow /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/trng_app/Debug/trng_app.elf], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.911
+!MESSAGE XSCT command with result: [dow /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/trng_app/Debug/trng_app.elf], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.912
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.914
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.922
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.972
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.972
+!MESSAGE XSCT Command: [con], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:06:17.991
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:21:15.027
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-354
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 14:21:15.068
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-354
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.443
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.445
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.445
+!MESSAGE XSCT Command: [hsi get_hw_files -of_object [openhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ; hsi current_hw_design]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.446
+!MESSAGE XSCT command with result: [hsi get_hw_files -of_object [openhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf ; hsi current_hw_design]], Result: [null, cryptoprocessor.hwh cryptoprocessor_bd.tcl cryptoprocessor_wrapper.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.455
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.478
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:03.478
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.183
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.199
+!MESSAGE XSCT Command: [::hsi::utils::openhw /tmp/system9106238977834387332.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.785
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /tmp/system9106238977834387332.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.786
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.792
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf], Result: [null, {"AXI_Slave8Ports_new_0": {"hier_name": "AXI_Slave8Ports_new_0",
+"type": "AXI_Slave8Ports_new",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"ComputeCoreWrapper_0": {"hier_name": "ComputeCoreWrapper_0",
+"type": "ComputeCoreWrapper",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.792
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /tmp/system9106238977834387332.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:04.797
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /tmp/system9106238977834387332.hdf], Result: [null, {"AXI_Slave8Ports_new_0": {"hier_name": "AXI_Slave8Ports_new_0",
+"type": "AXI_Slave8Ports_new",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"ComputeCoreWrapper_0": {"hier_name": "ComputeCoreWrapper_0",
+"type": "ComputeCoreWrapper",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:05.559
+!MESSAGE XSCT Command: [::hsi::utils::sync_sw_with_hw_changes -newhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf -oldhw /tmp/system9106238977834387332.hdf -sw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/trng_app_bsp/system.mss -dir /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/trng_app_bsp], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:05.813
+!MESSAGE XSCT command with result: [::hsi::utils::sync_sw_with_hw_changes -newhw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/cryptoprocessor_wrapper_hw_platform_0/system.hdf -oldhw /tmp/system9106238977834387332.hdf -sw /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/trng_app_bsp/system.mss -dir /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/trng_app_bsp], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-01-20 15:12:13.261
+!MESSAGE Executed Webtalk command
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:13.265
+!MESSAGE XSCT Command: [disconnect tcfchan#8], Thread: Thread-605
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-01-20 15:12:13.287
+!MESSAGE XSCT command with result: [disconnect tcfchan#8], Result: [null, ]. Thread: Thread-605

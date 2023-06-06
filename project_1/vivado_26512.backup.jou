@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec  5 13:40:09 2022
+# Process ID: 26512
+# Current directory: C:/Users/ssinharoy/Desktop/CryptographicHardware22/assignments/Assignment1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11696 C:\Users\ssinharoy\Desktop\CryptographicHardware22\assignments\Assignment1\project_1\project_1.xpr
+# Log file: C:/Users/ssinharoy/Desktop/CryptographicHardware22/assignments/Assignment1/project_1/vivado.log
+# Journal file: C:/Users/ssinharoy/Desktop/CryptographicHardware22/assignments/Assignment1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ssinharoy/Desktop/CryptographicHardware22/assignments/Assignment1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicHardware22/assignments/Assignment1/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicHardware22/assignments/Assignment1/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+reset_run synth_1
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+wait_on_run impl_2

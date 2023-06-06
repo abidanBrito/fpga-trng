@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Assignment2/Verilog_src/trng/stat_test/stat_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module statistical_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Assignment2/Verilog_src/trng/stat_test/tb_stat_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_stat_test

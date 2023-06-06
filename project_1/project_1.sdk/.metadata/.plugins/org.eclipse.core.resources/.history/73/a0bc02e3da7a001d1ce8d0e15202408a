@@ -1,0 +1,223 @@
+#include<stdio.h>
+#include<getopt.h>
+#include<limits.h>
+#include<stdint.h>
+
+#include "platform.h"
+#include "xil_printf.h"
+#include "xil_cache.h"
+
+
+#include "non_iid/utils.h"
+#include "non_iid/most_common.h"
+#include "non_iid/collision_test.h"
+#include "non_iid/lz78y_test.h"
+#include "non_iid/multi_mmc_test.h"
+#include "non_iid/lag_test.h"
+#include "non_iid/multi_mcw_test.h"
+#include "non_iid/compression_test.h"
+#include "non_iid/markov_test.h"
+
+#define SAMPLE_SIZE 1000000
+
+volatile uint32_t * axi_address_base;
+
+#include "communication.h"
+#include "instruction.h"
+#include "non_iid_tests.h"
+
+
+int main(){
+	uint32_t i, j, r;
+	uint64_t INS[64];   // Instruction buffer for cryptoprocessor.
+	uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+
+	int run_again = 1;
+	double min_entropy;
+	int COUNTER;
+
+
+	uint8_t *data = (uint8_t*) malloc(SAMPLE_SIZE*sizeof(uint8_t));	// Buffer where 1M random bits. They will be used to perform NIST tests in ARM.
+
+
+	init_platform();
+	axi_address_base   = (uint32_t *) 0x40000000;		// For PYNQ-z2 board
+
+
+
+	// Load instruction memory of Cryptoprocessor with the program
+	// to generate 512 random words in the BRAM. The 512*64 bits are read into data[].
+	// This program will be use 31 times to generate 1M random bits in total.
+
+	///////////// In the following part a statistical test is performed in FPGA ////////////////
+
+
+	// Now ask FPGA compute the statistical test.
+	init_INS_stat(INS);
+	send64(INS, 0, 64, 1); // send INStructions to FPGA using send64() function.
+	delay(1000);
+	exeIns();
+	delay(1000);
+	// During the execution of the program, it will print the 'error' flag.
+	// The error flag is 1 when the min_entropy is found to be lower after the on-chip statistical test.
+
+
+	init_INS_rng(INS);
+	send64(INS, 0, 64, 1); 	// send INStructions to FPGA using send64() function.
+	delay(1000);
+
+	while(run_again){
+					// 		In case we want to generate pseudo rnd bits in SW using rand()
+					//		for(i=0; i<SAMPLE_SIZE; i++){
+					//			r = random()%2;
+					//			data[i] = (uint8_t) r;
+					//		}
+
+		for(COUNTER=0; COUNTER<31; COUNTER++){
+
+			// COUNTER=i: Generate 64*512 bits in BRAM and then read the random words.
+			exeIns();
+			delay(1000);
+			receive64(fpga_memory_data, 0, 512);
+			delay(1000);
+
+
+			// Next, fill data[COUNTER*64*512 + ...] with the random bits from fpga_memory_data.
+			uint64_t temp;
+			uint64_t i_mod64;
+			for(i=0; i<64*512; i++){
+				temp = fpga_memory_data[i/64];
+				i_mod64 = i%64;
+				temp = temp>>i_mod64;
+				temp = temp & 1;
+				if(i+64*512*COUNTER >=1000000) goto L1;	// 1M bits are available in data[]. Hence, start statistical test.
+				data[i+64*512*COUNTER] = (uint8_t) temp;
+			}
+		}
+
+		L1:
+		min_entropy = non_iid_tests(data);	// Performs NIST tests and returns the minimum entropy from all the tests.
+
+		printf("Final min-entropy after all NIST tests = %lf\n", min_entropy);
+
+
+		// Just to see the random words, print them
+		for(i=0; i<512; i++)
+			printf("fpga_memory_data[%d] = %llx\n", i, fpga_memory_data[i]);
+
+		printf("Run again [0/1]?\n");
+		scanf("%d", &run_again);
+	}
+
+
+	free(data);
+
+
+
+	Xil_DCacheFlush();
+	Xil_DCacheDisable();
+
+	printf("Finish\n");
+
+	cleanup_platform();
+	return 0;
+
+}
+
+
+
+
+/*
+int main(){
+	uint32_t i, j, r;
+	uint64_t INS[64];
+	uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+
+	uint8_t *data = (uint8_t*) malloc(SAMPLE_SIZE*sizeof(uint8_t));
+
+	printf("Hello\n");
+
+	init_platform();
+	//axi_address_base   = (uint32_t *) 0x00A0000000; 	// For zcu102 board
+	axi_address_base   = (uint32_t *) 0x40000000;		// For PYNQ-z2 board
+
+	int run_again = 1;
+	double min_entropy;
+	uint32_t numer_of_ones = 0;
+
+	//init_INS_rng(INS);
+	init_INS_stat(INS);
+	int COUNTER; // runs 20 times
+
+	send64(INS, 0, 64, 1); // send INStructions to FPGA using send64() function.
+	delay(1000);
+
+	while(run_again){
+
+//		for(i=0; i<SAMPLE_SIZE; i++){
+//			//r = (random()%3)%2;
+//			r = random()%2;
+//			data[i] = (uint8_t) r;
+//		}
+
+		numer_of_ones = 0;
+
+		for(COUNTER=0; COUNTER<31; COUNTER++){
+			// Clear SW buffer before loading data in it from FPGA.
+			for(i=0; i<1024; i++){
+				fpga_memory_data[i] = 0;
+			}
+
+			// Step-i: Get 50*1000 bits of randomness in fpga_memory_data1
+			printf("... Executing instructions\n");
+			exeIns();
+			printf("Executed all instructions!\n");
+			delay(1000);
+			receive64(fpga_memory_data, 0, 1024);
+			delay(1000);
+
+
+			// Step3: Convert received random words of fpga_memory_data into a bitstring.
+			uint64_t temp;
+			uint64_t i_mod64;
+			for(i=0; i<64*512; i++){
+				temp = fpga_memory_data[i/64];
+				i_mod64 = i%64;
+				temp = temp>>i_mod64;
+				temp = temp & 1;
+				if(i+64*512*COUNTER >=1000000) goto L1;
+				data[i+64*512*COUNTER] = (uint8_t) temp;
+				numer_of_ones = numer_of_ones + temp;
+			}
+		}
+
+		L1:
+		printf("Number of ones = %u\n", numer_of_ones);
+
+
+		min_entropy = non_iid_tests(data);
+
+		printf("Final min-entropy after all tests = %lf\n", min_entropy);
+
+		for(i=0; i<512; i++)
+			printf("fpga_memory_data[%d] = %llx\n", i, fpga_memory_data[i]);
+
+		printf("Run again [0/1]:\n");
+		scanf("%d", &run_again);
+	}
+
+
+	free(data);	
+
+	Xil_DCacheFlush();
+	Xil_DCacheDisable();
+
+	printf("Finish\n");
+
+	cleanup_platform();
+	return 0;
+
+}	
+
+
+ */

@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct  8 08:21:53 2021
+# Process ID: 29660
+# Current directory: C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30612 C:\Users\ssinharoy\Desktop\CryptographicEngineering\Vivado_Verilog\CryptoProcessor_2021_22\project_1\project_1.xpr
+# Log file: C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/vivado.log
+# Journal file: C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_compile_order -fileset sources_1
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+export_ip_user_files -of_objects  [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/ro_3inv.v] -no_script -reset -force -quiet
+remove_files  C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/ro_3inv.v
+add_files -norecurse {C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_wrapper.v C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/ring_oscillators.v C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_ro.v}
+update_compile_order -fileset sources_1
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+reset_run synth_1
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2
+file copy -force C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.runs/impl_2/cryptoprocessor_wrapper.sysdef C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+open_bd_design {C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+source tb.tcl
+restart
+run 10u
+run 10us
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+file copy -force C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.runs/impl_2/cryptoprocessor_wrapper.sysdef C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+close_sim
+generate_target Simulation [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+generate_target Simulation [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+source tb.tcl
+open_run impl_2
+report_utilization -name utilization_1
+close_design
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+reset_run synth_1
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2
+file copy -force C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.runs/impl_2/cryptoprocessor_wrapper.sysdef C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+close_sim

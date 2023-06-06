@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec  5 11:29:46 2022
+# Process ID: 21960
+# Current directory: C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20376 C:\profiles\ssinharoy.old\Desktop\CryptographicEngineering\Vivado_Verilog\CryptoProcessor_2021_22\project_1\project_1.xpr
+# Log file: C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/vivado.log
+# Journal file: C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 828.473 ; gain = 190.949
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

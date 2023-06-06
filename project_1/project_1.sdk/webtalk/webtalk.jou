@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Fri Jan 20 15:12:13 2023
+# Process ID: 1178196
+# Current directory: /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/webtalk/webtalk.log
+# Journal file: /home/jharing/git/2nd/chw2022g3/Assignment2/project_1/project_1.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

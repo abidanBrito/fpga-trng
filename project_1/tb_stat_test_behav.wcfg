@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_stat_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_stat_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="122000000fs"></ZoomStartTime>
+      <ZoomEndTime time="168177621fs"></ZoomEndTime>
+      <Cursor1Time time="143037000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="191"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/tb_stat_test/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_stat_test/stat_trng_rst">
+      <obj_property name="ElementShortName">stat_trng_rst</obj_property>
+      <obj_property name="ObjectShortName">stat_trng_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_stat_test/enable_TRO">
+      <obj_property name="ElementShortName">enable_TRO</obj_property>
+      <obj_property name="ObjectShortName">enable_TRO</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/random_reg">
+      <obj_property name="ElementShortName">random_reg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">random_reg[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_stat_test/rng_ready">
+      <obj_property name="ElementShortName">rng_ready</obj_property>
+      <obj_property name="ObjectShortName">rng_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_stat_test/stat_error">
+      <obj_property name="ElementShortName">stat_error</obj_property>
+      <obj_property name="ObjectShortName">stat_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_stat_test/stat_done">
+      <obj_property name="ElementShortName">stat_done</obj_property>
+      <obj_property name="ObjectShortName">stat_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/rng_buffer">
+      <obj_property name="ElementShortName">rng_buffer[191:0]</obj_property>
+      <obj_property name="ObjectShortName">rng_buffer[191:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/UUT/num_of_1s">
+      <obj_property name="ElementShortName">num_of_1s[19:0]</obj_property>
+      <obj_property name="ObjectShortName">num_of_1s[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/UUT/num_of_01s">
+      <obj_property name="ElementShortName">num_of_01s[18:0]</obj_property>
+      <obj_property name="ObjectShortName">num_of_01s[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/UUT/lhs">
+      <obj_property name="ElementShortName">lhs[19:0]</obj_property>
+      <obj_property name="ObjectShortName">lhs[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/UUT/cond_val">
+      <obj_property name="ElementShortName">cond_val[19:0]</obj_property>
+      <obj_property name="ObjectShortName">cond_val[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_stat_test/UUT/condition">
+      <obj_property name="ElementShortName">condition</obj_property>
+      <obj_property name="ObjectShortName">condition</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/UUT/v1">
+      <obj_property name="ElementShortName">v1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">v1[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_stat_test/UUT/v2">
+      <obj_property name="ElementShortName">v2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">v2[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

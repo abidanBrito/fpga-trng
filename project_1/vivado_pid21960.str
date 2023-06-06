@@ -1,0 +1,226 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 21960
+License: Customer
+
+Current time: 	Mon Dec 05 11:30:03 CET 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 721 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ssinharoy
+User home directory: C:/Users/ssinharoy
+User working directory: C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/ssinharoy/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/ssinharoy/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/ssinharoy/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/vivado.log
+Vivado journal file location: 	C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/vivado.jou
+Engine tmp dir: 	C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/.Xil/Vivado-21960-ipn018
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@servitus.student.iaik.tugraz.at
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 672 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 92 MB (+94432kb) [00:00:06]
+// [Engine Memory]: 596 MB (+472975kb) [00:00:06]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\profiles\ssinharoy.old\Desktop\CryptographicEngineering\Vivado_Verilog\CryptoProcessor_2021_22\project_1\project_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 55 MB. Current time: 12/5/22, 11:30:05 AM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 745 MB (+125214kb) [00:00:14]
+// [GUI Memory]: 104 MB (+7202kb) [00:00:16]
+// [Engine Memory]: 792 MB (+10329kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  4434 ms.
+// Tcl Message: open_project C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1' INFO: [Project 1-313] Project file moved from 'C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 828.473 ; gain = 190.949 
+// Project name: project_1; location: C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1; part: xc7z020clg400-1
+// [Engine Memory]: 859 MB (+28540kb) [00:00:19]
+dismissDialog("Open Project"); // by (cl)
+// [GUI Memory]: 121 MB (+11931kb) [00:00:20]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 91 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v)]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper)]", 5); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v)]", 7); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v)]", 8); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v)]", 9); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v), TRO : TRNG_RO (trng_ro.v)]", 10); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v), TRO : TRNG_RO (trng_ro.v), ro_sample : ro_5inv (ring_oscillators.v)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v), TRO : TRNG_RO (trng_ro.v), ro_sample : ro_5inv (ring_oscillators.v)]", 11, false, false, false, false, false, true); // B (F, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 65 MB. Current time: 12/5/22, 11:32:05 AM CET
+// [Engine Memory]: 912 MB (+11224kb) [00:02:13]
+selectCodeEditor("ring_oscillators.v", 355, 60); // cl (w, cl)
+// Elapsed time: 18 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v), TRO : TRNG_RO (trng_ro.v)]", 10, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v), TRO : TRNG_RO (trng_ro.v)]", 10, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+floatFrame(PAResourceOtoP.PAViews_CODE, "trng_ro.v"); // az (aK, cl)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "trng_ro.v"); // az (aK, aM)
+selectCodeEditor("trng_ro.v", 470, 616); // cl (w, aM)
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec C:/profiles/ssinharoy.old/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 130 MB (+3698kb) [00:05:06]
+// Elapsed time: 426 seconds
+selectCodeEditor("trng_ro.v", 166, 260); // cl (w, aM)
+selectCodeEditor("trng_ro.v", 166, 260, false, false, false, false, true); // cl (w, aM) - Double Click
+selectCodeEditor("trng_ro.v", 326, 257); // cl (w, aM)
+selectCodeEditor("trng_ro.v", 326, 257, false, false, false, false, true); // cl (w, aM) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v)]", 9, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v), RNG : TRNG_wrapper (trng_wrapper.v)]", 9, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+floatFrame(PAResourceOtoP.PAViews_CODE, "trng_wrapper.v"); // az (aK, cl)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "trng_wrapper.v"); // az (aK, aM)
+// Elapsed time: 45 seconds
+selectCodeEditor("trng_wrapper.v", 289, 112); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 289, 112, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("trng_wrapper.v", 702, 262); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 702, 262, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 79 seconds
+selectCodeEditor("trng_wrapper.v", 88, 263); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 88, 263, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("trng_wrapper.v", 294, 109); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 294, 109, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 173 seconds
+selectCodeEditor("trng_wrapper.v", 153, 413); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 153, 413, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 49 seconds
+selectCodeEditor("trng_wrapper.v", 370, 783); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 370, 783, false, false, false, false, true); // cl (w, aM) - Double Click
+selectCodeEditor("trng_wrapper.v", 142, 616); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 142, 616, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("trng_wrapper.v", 384, 81); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 384, 81, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("trng_wrapper.v", 115, 580); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 115, 580, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 146 seconds
+selectCodeEditor("trng_wrapper.v", 357, 239); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 357, 239, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("trng_wrapper.v", 174, 186); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 174, 186, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 63 seconds
+selectCodeEditor("trng_wrapper.v", 146, 341); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 146, 341, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 146 seconds
+selectCodeEditor("trng_wrapper.v", 354, 242); // cl (w, aM)
+selectCodeEditor("trng_wrapper.v", 354, 242, false, false, false, false, true); // cl (w, aM) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v)]", 8, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v), ComputeCoreWrapper_0 : cryptoprocessor_ComputeCoreWrapper_0_0 (Module Reference Wrapper), cryptoprocessor_ComputeCoreWrapper_0_0 (cryptoprocessor_ComputeCoreWrapper_0_0.v), inst : ComputeCoreWrapper (ComputeCoreWrapper.v), CORE : ComputeCore (ComputeCore.v)]", 8, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+floatFrame(PAResourceOtoP.PAViews_CODE, "ComputeCore.v"); // az (aK, cl)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "ComputeCore.v"); // az (aK, aM)
+selectCodeEditor("ComputeCore.v", 387, 260); // cl (w, aM)
+selectCodeEditor("ComputeCore.v", 387, 260, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("ComputeCore.v", 107, 150); // cl (w, aM)
+selectCodeEditor("ComputeCore.v", 107, 150, false, false, false, false, true); // cl (w, aM) - Double Click
+selectCodeEditor("ComputeCore.v", 118, 130); // cl (w, aM)
+selectCodeEditor("ComputeCore.v", 118, 130, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 213 seconds
+selectCodeEditor("ComputeCore.v", 781, 194); // cl (w, aM)
+// WARNING: HEventQueue.dispatchEvent() is taking  1131 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 68 MB. Current time: 12/5/22, 12:02:08 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 64 MB. Current time: 12/5/22, 12:32:08 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 59 MB. Current time: 12/5/22, 1:02:09 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 60 MB. Current time: 12/5/22, 1:32:09 PM CET

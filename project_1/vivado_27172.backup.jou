@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct  5 23:04:30 2021
+# Process ID: 27172
+# Current directory: C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20512 C:\Users\ssinharoy\Desktop\CryptographicEngineering\Vivado_Verilog\CryptoProcessor_clean1\project_1\project_1.xpr
+# Log file: C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/vivado.log
+# Journal file: C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk
+file copy -force C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.runs/impl_2/cryptoprocessor_wrapper.sysdef C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+close_project
+open_project C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+close_project
+open_project C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+close_project
+open_project C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk -hwspec C:/Users/ssinharoy/Desktop/CryptographicEngineering/Vivado_Verilog/CryptoProcessor_clean1/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+reset_run synth_1
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2
